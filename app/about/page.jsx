@@ -1,7 +1,10 @@
-import React from "react";
+export const dynamic = "force-static";
 
-const page = () => {
-  return <div>About page</div>;
-};
-
-export default page;
+export default function AboutPage() {
+  return (
+    <main>
+      <h1>About Us</h1>
+      <p>Learn more about who we are.</p>
+    </main>
+  );
+}
